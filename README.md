@@ -10,6 +10,8 @@ This repository provides a set of JPA entity listener classes that intercept eve
 * Improved code separation: Listeners encapsulate logic related to entity lifecycle events, promoting cleaner entity code.
 * Enhanced flexibility: Listeners can be reused across multiple entities or customized for specific needs.
 * Streamlined transactions: Certain operations within listeners can be part of the database transaction, ensuring consistency.
+* Logging and auditing: Listeners can be used to log or audit entity state changes for debugging or compliance purposes.
+* Data Validation: Listeners can be used to validate entity state changes before they are persisted to the database.
 
 ## Additional Notes:
 
